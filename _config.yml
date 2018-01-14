@@ -3,7 +3,7 @@ url: http://example.org
 description: A stylish blog using the Solarized color palette
 
 permalink: /:year/:month/:day/:title/
-paginate: 10
+paginate: 6
 
 plugins: 
   - jekyll-paginate

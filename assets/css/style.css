@@ -33,7 +33,7 @@ table {
 /*** Basics ***/
 body {
 	font-family: Verdana, serif;
-	font-size: 13px;
+	font-size: 14px;
 	line-height: 1.7;
 }
 
@@ -116,7 +116,7 @@ h3 {
 
 #header {
 	width: 600px;
-	margin: 40px auto 50px auto;
+	margin: 45px auto 55px auto;
 }
 #header h1 {
 	font-size: 32px;
@@ -164,12 +164,19 @@ h3 {
 
 /*** Posts ***/
 article {
-	margin-bottom: 40px;
+	margin-bottom: 50px;
+}
+
+article .post-meta {
+	padding-top: 6px;
+	font-size: 0.85em;
+	color: #657b83;
 }
 
 article h1 {
-	font-size: 17px;
-	margin: 0 0 10px 0;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0 0 14px 0;
 }
 article h1 a {
 	border: none;
@@ -178,16 +185,39 @@ article h1 a.anchor {
 	margin-left: 8px;
 }
 
+article h2 {
+	font-size: 19px;
+	font-weight: bold;
+	margin: 0 0 12px 0;
+}
+
+article h3 {
+	font-size: 15.25px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+article h4 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 8px 0;
+}
+
+article h5 {
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0 0 8px 0;
+}
+
+article h6 {
+	font-size: 11px;
+	margin: 0 0 8px 0;
+}
+
 article img {
 	display: block;
 	text-align: center;
 	margin: 0 auto 1em auto;
-}
-
-article .meta {
-	padding-top: 6px;
-	font-size: 0.85em;
-	font-style: italic;
 }
 
 img.left {
