@@ -156,7 +156,7 @@ h6 {
 	width: 600px;
 	margin: 50px auto 20px auto;
 	padding-top: 10px;
-	font-size: 0.7em;
+	font-size: 0.75em;
 	text-align: center;
 	border-top: 1px solid #073642;
 }
@@ -194,9 +194,9 @@ article {
 }
 
 article .post-meta {
-	padding-top: 6px;
 	font-size: 0.85em;
 	color: #657b83;
+	padding-top: 12px;
 }
 
 article img {
