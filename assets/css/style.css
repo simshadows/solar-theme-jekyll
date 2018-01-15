@@ -254,13 +254,15 @@ img.center {
 
 
 /*** Media Queries ***/
-@media all and (max-width: 870px) {
+@media all and (max-width: 1049px) {
 
-	#page, #header, #content, #footer {
-		width: inherit;
-		padding-left: 10px;
-		padding-right: 10px;
+	#sidebar {
+		left: -215px;
 	}
+
+}
+
+@media all and (max-width: 949px) {
 
 	#sidebar {
 		position: relative;
@@ -273,6 +275,16 @@ img.center {
 	#sidebar nav select.mnav {
 		display: block;
 		margin-bottom: 15px;
+	}
+
+}
+
+@media all and (max-width: 679px) {
+
+	#page, #header, #content, #footer {
+		width: inherit;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 }
