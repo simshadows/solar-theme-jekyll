@@ -76,18 +76,43 @@ acronym, abbr {
 }
 
 
+
 h1 {
-	font-size: 17px;
-	margin: 0 0 10px 0;
+	font-size: 24px;
+	font-weight: bold;
+	margin: 0 0 8px 0;
+}
+h1 a {
+	border: none;
+}
+h1 a.anchor {
+	margin-left: 8px;
 }
 h2 {
-	font-size: 15px;
-	margin: 0 0 10px 0;
+	font-size: 19px;
+	font-weight: bold;
+	margin: 0 0 8px 0;
 }
 h3 {
-	font-size: 14px;
-	margin: 0 0 10px 0;
+	font-size: 15.25px;
+	font-weight: bold;
+	margin: 0 0 8px 0;
 }
+h4 {
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 8px 0;
+}
+h5 {
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0 0 8px 0;
+}
+h6 {
+	font-size: 11px;
+	margin: 0 0 8px 0;
+}
+
 
 
 
@@ -119,6 +144,7 @@ h3 {
 	margin: 45px auto 55px auto;
 }
 #header h1 {
+	font-weight: normal;
 	font-size: 32px;
 	margin-bottom: 4px;
 }
@@ -173,47 +199,6 @@ article .post-meta {
 	color: #657b83;
 }
 
-article h1 {
-	font-size: 24px;
-	font-weight: bold;
-	margin: 0 0 14px 0;
-}
-article h1 a {
-	border: none;
-}
-article h1 a.anchor {
-	margin-left: 8px;
-}
-
-article h2 {
-	font-size: 19px;
-	font-weight: bold;
-	margin: 0 0 12px 0;
-}
-
-article h3 {
-	font-size: 15.25px;
-	font-weight: bold;
-	margin: 0 0 10px 0;
-}
-
-article h4 {
-	font-size: 12px;
-	font-weight: bold;
-	margin: 0 0 8px 0;
-}
-
-article h5 {
-	font-size: 11px;
-	font-weight: bold;
-	margin: 0 0 8px 0;
-}
-
-article h6 {
-	font-size: 11px;
-	margin: 0 0 8px 0;
-}
-
 article img {
 	display: block;
 	text-align: center;
@@ -232,6 +217,16 @@ img.center {
 	display: block;
 	text-align: center;
 	margin: 0 auto 1em auto;
+}
+
+
+
+/*** Archive Page ***/
+.blog-archives-entry {
+	margin: 0 0 6px 0;
+}
+.blog-archives-entry > .post-meta {
+	font-size: 0.75em;
 }
 
 
