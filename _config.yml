@@ -1,13 +1,13 @@
 name: Solar Theme
 url: http://example.org
+author: Your Name Here
 description: A stylish blog using the Solarized color palette
 
 permalink: /:year/:month/:day/:title/
 paginate: 6
 
-plugins: 
-  - jekyll-seo-tag
-  - jekyll-paginate
+plugins:
+  - jekyll-sitemap
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 markdown: kramdown
