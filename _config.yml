@@ -8,8 +8,13 @@ paginate: 6
 
 plugins:
   - jekyll-sitemap
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
 markdown: kramdown
 kramdown:
   input: GFM
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'Rakefile'
+  - 'README.md'
