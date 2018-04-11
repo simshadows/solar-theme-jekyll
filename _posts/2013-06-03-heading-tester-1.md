@@ -2,7 +2,8 @@
 layout: post
 title:  "Heading Tester 1"
 date:   2013-06-03 17:06:25
-categories: jekyll update
+categories: ['A single category']
+tags: ['Very Long Tag', smalltag]
 ---
 
 Realistically, you wouldn't put another Heading 1 as the Heading 1 style is already used for the article heading. However, I'm adding it here for testing purposes.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Heading Tester 3"
 date:   2013-06-01 17:06:25
-categories: jekyll update
+tags: ['A single tag']
 ---
 
 ## Heading 2

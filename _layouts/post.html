@@ -12,10 +12,71 @@ layout: default
 		<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 	{% endif %}
 
+	<!--<p class="post-meta">-->
+		<!--[> Date <]-->
+		<!--<span class="postdate">{{ page.date | date: "%B %d, %Y" }}</span>-->
+		<!--[> Categories <]-->
+		<!--{% if page.categories.size > 0 %}-->
+			<!--&#8226;-->
+			<!--<span class="postcategories">{{ page.categories | join: " &#8226; " }}</span>-->
+		<!--{% endif %}-->
+		<!--[> Categories <]-->
+		<!--{% if page.tags.size > 0 %}-->
+			<!--&#8226;-->
+			<!--{% if page.tags.size == 1 %}-->
+				<!--Tag:-->
+			<!--{% else %}-->
+				<!--Tags:-->
+			<!--{% endif %}-->
+			<!--<span class="posttags">{{ page.tags | join: ", " }}</span>-->
+		<!--{% endif %}-->
+	<!--</p>-->
+
 	<div class="post-content">{{ content }}</div>
 
 	<p class="post-meta">
-		Posted on <span class="postdate">{{ page.date | date: "%B %d, %Y" }}</span><br>
+		<!--Date-->
+		Posted <span class="postdate">{{ page.date | date: "%B %d, %Y" }}</span>
+		<!-- Categories -->
+		{% if page.categories.size > 0 %}
+			&#8226;
+			<span class="postcategories">{{ page.categories | join: " &#8226; " }}</span>
+		{% endif %}
+		<!-- Categories -->
+		{% if page.tags.size > 0 %}
+			&#8226;
+			{% if page.tags.size == 1 %}
+				Tag:
+			{% else %}
+				Tags:
+			{% endif %}
+			<span class="posttags">{{ page.tags | join: ", " }}</span>
+		{% endif %}
 	</p>
+
+	<!--<p class="post-meta">-->
+		<!--[> Date <]-->
+		<!--Posted on <span class="postdate">{{ page.date | date: "%B %d, %Y" }}</span>-->
+		<!--[> Categories <]-->
+		<!--{% if page.categories.size > 0 %}-->
+			<!--<br>-->
+			<!--{% if page.categories.size == 1 %}-->
+				<!--Category:-->
+			<!--{% else %}-->
+				<!--Categories:-->
+			<!--{% endif %}-->
+			<!--<span class="postcategories">{{ page.categories | join: ", " }}</span>-->
+		<!--{% endif %}-->
+		<!--[> Categories <]-->
+		<!--{% if page.tags.size > 0 %}-->
+			<!--<br>-->
+			<!--{% if page.tags.size == 1 %}-->
+				<!--Tag:-->
+			<!--{% else %}-->
+				<!--Tags:-->
+			<!--{% endif %}-->
+			<!--<span class="posttags">{{ page.tags | join: ", " }}</span>-->
+		<!--{% endif %}-->
+	<!--</p>-->
 
 </article>

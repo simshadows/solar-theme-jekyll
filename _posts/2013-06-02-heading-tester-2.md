@@ -2,7 +2,8 @@
 layout: post
 title:  "Heading Tester 2"
 date:   2013-06-02 17:06:25
-categories: jekyll update
+categories: ['Very Long Category', smallcategory]
+tags: ['A single tag']
 ---
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
